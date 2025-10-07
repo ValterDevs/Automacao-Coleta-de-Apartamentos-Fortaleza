@@ -82,16 +82,6 @@ primeira_linha_vazia = len(col_A) + 1  # próxima linha disponível
 
 print("Linha em que será inserido novos dados:", primeira_linha_vazia)
 
-# options = Options()
-# options.add_argument("--disable-blink-features=AutomationControlled")
-# options.add_experimental_option("excludeSwitches", ["enable-automation"])
-# options.add_experimental_option("useAutomationExtension", False)
-# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0...)")
-# options.add_argument("--force-device-scale-factor=0.7")  # Zoom 70%
-# options.add_argument("--start-maximized")  # abre maximizado
-# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-#                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-#                      "Chrome/114.0.0.0 Safari/537.36")
 
 
 driver = uc.Chrome()
@@ -165,10 +155,6 @@ for i in range(10):
 
         try:
             banheiros = localizar(driver, '/html/body/div[3]/div[1]/div[1]/div[1]/div[4]/div/div/div/div/ul/li[3]/span[2]').text
-            # if("vaga" in garagem or "vagas" in garagem):
-            #     variavel_reserva = banheiros
-            #     banheiros = garagem
-            #     garagem = variavel_reserva
         except:
             banheiros = "Quantidade de banheiros não informado"
 
