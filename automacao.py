@@ -107,6 +107,14 @@ for i in range(10):
         localizar(driver, f'/html/body/section/div/div[3]/div[4]/div[1]/ul/li[{a}]/a/div/div[2]/div[1]/div/h2').click()
 
         try:
+            elemento = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div/button/svg/path"))
+            )
+            driver.execute_script("arguments[0].click();", elemento)
+        except:
+            pass
+
+        try:
             localizar(driver, '/html/body/div[7]/section/section/section[2]/a[1]/div[2]/div[1]/img[1]').click
         except:
             pass
@@ -115,6 +123,12 @@ for i in range(10):
         variavel_reserva = ""
 
         abas = driver.window_handles
+
+        if(len(abas) == 1):
+            # Pressionar ESC no corpo da página
+            body = driver.find_element(By.TAG_NAME, "body")
+            body.send_keys(Keys.ESCAPE)
+            continue
 
         driver.switch_to.window(abas[-1])
 

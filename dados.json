@@ -1,16 +1,16 @@
 {
-    "localizacao": "Localização não informada",
+    "localizacao": "Rua do Murará, 101 - Paupina, Fortaleza - CE",
     "andar": "Andar não informado",
-    "banheiros": "Quantidade de banheiros não informado",
-    "quartos": "Quartos não informados",
-    "suites": "Suítes não informadas",
-    "valor": "Valor não informado",
-    "metro_quadrado": "Tamanho não informado",
-    "garagem": "Garagem não informada",
-    "condominio": "Valor do condomínio não informado",
-    "iptu": "Valor do IPTU não informado",
+    "banheiros": "2 banheiros",
+    "quartos": "3 quartos",
+    "suites": "1 suíte",
+    "valor": "R$ 210.000",
+    "metro_quadrado": "52 m²",
+    "garagem": "2 vagas",
+    "condominio": "Isento",
+    "iptu": "Não informado",
     "anunciante": "Anunciante não encontrado",
-    "link": "https://www.zapimoveis.com.br/venda/apartamentos/ce+fortaleza/?transacao=venda&onde=%2CCear%C3%A1%2CFortaleza%2C%2C%2C%2C%2Ccity%2CBR%3ECeara%3ENULL%3EFortaleza%2C-3.73272%2C-38.527013%2C&tipos=apartamento_residencial&origem=busca-recente",
-    "indice": 8,
-    "pagina": 0
+    "link": "https://www.zapimoveis.com.br/imovel/venda-apartamento-3-quartos-com-piscina-paupina-fortaleza-ce-52m2-id-2841179818/?source=ranking%2Crp",
+    "indice": 14,
+    "pagina": 1
 }
